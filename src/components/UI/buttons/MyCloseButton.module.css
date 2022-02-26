@@ -1,0 +1,26 @@
+    .MyClsBtn {
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background: linear-gradient(
+            90deg,
+            rgb(103, 129, 123) 0%,
+            rgb(77, 95, 80) 100%
+          );
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+        margin-left: 5px;
+    }
+
+    
+    .MyClsBtn:active {
+        background-color: #614549;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }

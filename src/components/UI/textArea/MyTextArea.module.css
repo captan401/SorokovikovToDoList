@@ -1,0 +1,10 @@
+.MyTxtArea{
+    border: 2px solid rgb(88, 69, 20);
+    background: none;
+    width: 95%;
+    height: 580px;
+    font-size: x-large;
+    margin: 10px;
+
+    padding: 0px 0px 0px 10px;
+}

@@ -1,0 +1,82 @@
+.TaskItem1{ /* идет выбор цвета и характеристик для каждого задания*/
+  min-width: 320px;
+  min-height: 50px;
+  margin-top: 20px;
+    border: 2px solid rgb(54, 146, 126);
+    border-radius: 30px;
+     background: linear-gradient(
+        90deg,
+        rgb(42, 84, 221) 0%,
+        rgb(18, 78, 146) 100%
+      );
+      color: rgb(255, 255, 255); 
+      cursor: pointer;
+      font-size: large;
+      box-shadow: 0 5px #999;
+      position: relative;
+}
+
+.TaskItem1:active {
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+.TaskItem2{
+  min-width: 320px;
+  min-height: 50px;
+  margin-top: 20px;
+  border: 2px solid rgb(54, 146, 126);
+  border-radius: 30px;
+   background: linear-gradient(
+      90deg,
+      rgb(154, 172, 165) 0%,
+      rgb(79, 137, 141) 100%
+    ); 
+  cursor: pointer;
+  font-size: large;
+  box-shadow: 0 5px #999;
+  position: relative;
+
+}
+
+.TaskItem2:active {
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+.TaskItem3{
+  margin-top: 20px;
+  min-width: 320px;
+  min-height: 50px;
+  border: 2px solid rgb(54, 146, 126);
+  border-radius: 30px;
+   background: linear-gradient(
+      90deg,
+      rgb(25, 168, 49) 0%,
+      rgb(7, 116, 39) 100%
+    ); 
+    color: rgb(236, 232, 232);
+    cursor: pointer;
+    font-size: large;
+    box-shadow: 0 5px #999;
+    position: relative;
+}
+
+.TaskItem3:active {
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+.MySelect{ /* стили для селекта*/
+    position: absolute;
+    left: 302px;
+    width: 5px;
+    height: 5px;
+    padding: 5px 5px 5px 5px;
+    font-size: 18px;
+    border: 2px solid rgb(12, 11, 11);
+    border-radius: 7px;
+    appearance: none;
+    background:  rgb(144, 144, 144);
+    
+}

@@ -1,0 +1,27 @@
+
+.MyEddBtn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(
+        90deg,
+        rgb(143, 129, 84) 0%,
+        rgb(102, 90, 25) 100%
+      );
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-left: 5px;
+  }
+  
+  
+  .MyEddBtn:active {
+    background-color: #725b12;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
